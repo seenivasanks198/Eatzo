@@ -35,7 +35,10 @@ export default function SettingsScreen({ navigation }: Props) {
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Account</Text>
-        <TouchableOpacity style={styles.row}>
+        <TouchableOpacity
+          style={styles.row}
+          onPress={() => navigation.navigate('Profile')}
+        >
           <Text style={styles.rowText}>Profile</Text>
           <Text style={styles.arrow}>›</Text>
         </TouchableOpacity>
