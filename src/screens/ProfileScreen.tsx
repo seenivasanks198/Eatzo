@@ -23,7 +23,7 @@ export default function ProfileScreen({ navigation }: Props) {
 
       <View style={styles.avatarContainer}>
         <View style={styles.avatar}>
-          <Text style={styles.avatarText}>JD</Text>
+          <Text style={styles.avatarText}>JsD</Text>
         </View>
         <Text style={styles.name}>John Doe</Text>
         <Text style={styles.email}>john.doe@email.com</Text>
